@@ -1,4 +1,4 @@
-<nav class="">
+<!-- <nav class="">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
             <a href="/">
@@ -16,4 +16,21 @@
     </div>
     
 
-</nav>
+</nav> -->
+
+<div class="navbar bg-base-100 px-8">
+    <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl" href="/">Lilydev_</a>
+    </div>
+    <div class="flex-none">
+        <ul class="menu menu-horizontal p-0">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/projects">Projects</a>
+            </li>
+        </ul>
+    </div>
+
+</div>

@@ -6,8 +6,8 @@
 </script>
 <Navbar />
 
-<html class="bg-slate-800 fill" lang="en">
+<!-- <html class="bg-slate-800 fill" lang="en"> -->
     <slot />
-</html>
+<!-- </html> -->
 
 
