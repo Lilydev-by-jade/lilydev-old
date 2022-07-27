@@ -4,7 +4,7 @@
 
 <title>Projects</title>
 <div class="grid grid-cols-12 grid-flow-row justify-items-center space-y-12">
-	<h1 class="col-span-12 text-4xl w-auto">Projects</h1>
+	<h1 class="col-span-12 text-4xl w-auto font-extrabold">Projects</h1>
 	<div
 		class="grid justify-center grid-flow-row col-span-12 space-y-10 xl:w-4/12 lg:w-7/12 md:w-9/12 sm:w-10/12 w-10/12"
 	>

@@ -14,13 +14,13 @@
 <div class="relative group">
 	<!-- Card Background Glow -->
 	<div
-		class="absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-400 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
+		class="absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-300 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
 	/>
 	<!-- Card Base -->
-	<div class="card w-xl bg-base-100">
+	<div class="card w-xl bg-base-100 shadow-xl">
 		<div class="card-body pb-5">
 			<div class="card-title flex justify-between">
-				<h2 class="card-title">{title}</h2>
+				<h2 class="card-title font-bold">{title}</h2>
 				{#if type == 'Fabric'}
 					<div class="flex items-center space-x-1.5">
 						<div class="w-2 h-2 mt-1 bg-yellow-500 rounded-full" />
