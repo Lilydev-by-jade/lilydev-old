@@ -14,7 +14,7 @@
 <div class="relative group overflow-visible">
 	<!-- Card Background Glow -->
 	<div
-		class="absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-300 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
+		class="overflow-visible absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-300 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
 	/>
 	<!-- Card Base -->
 	<div class="card w-xl bg-base-100 shadow-xl overflow-visible">
