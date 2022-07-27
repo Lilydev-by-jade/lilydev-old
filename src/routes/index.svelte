@@ -2,6 +2,7 @@
 	import Modrinth from '../components/icons/modrinth.svg?url';
 </script>
 
+<title>Lilydev</title>
 <div class="grid justify-items-center h-96">
 	<div class="grid space-y-3 self-center w-96 mt-36">
 		<div class="grid grid-cols-10">
