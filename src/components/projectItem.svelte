@@ -18,7 +18,7 @@
 	/>
 	<!-- Card Base -->
 	<div
-		class="card w-xl bg-base-100 shadow-xl overflow-visible outline outline-pink-200 hover:outline-pink-500 transition duration-200"
+		class="card w-xl bg-base-100 shadow-xl overflow-visible  project-outline transition duration-200"
 	>
 		<div class="card-body pb-5">
 			<div class="card-title flex justify-between">
@@ -61,3 +61,13 @@
 		</div>
 	</div>
 </div>
+
+<style lang="scss">
+	.project-outline {
+		box-shadow: 0 0 0 2px #f8d3fc;
+
+		&:hover {
+			box-shadow: 0 0 0 2px #f29ffa;
+		}
+	}
+</style>
