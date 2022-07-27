@@ -28,7 +28,7 @@
 							<i class="fa-brands fa-github text-white text-3xl" />
 						</div>
 					</a>
-					<a href="/modrinth" class="flex items-center">
+					<a href="https://modrinth.com/user/jadelily18" class="flex items-center">
 						<div class="tooltip flex items-center" data-tip="Modrinth">
 							<img src={Modrinth} width="30" alt="modrinth logo icon" />
 						</div>
@@ -41,7 +41,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- Artboard -->
 		<div class="flex artboard rounded-box p-3">
 			<p class="text-1xl">
