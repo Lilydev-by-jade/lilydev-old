@@ -1,5 +1,8 @@
 <script>
 	import Modrinth from '../components/icons/modrinth.svg?url';
+
+	let descriptionText =
+		"Hi! I'm Jade, a Minecraft mod developer and (maybe soon) game developer. You can find all of my other platforms from the buttons on this site, and my projects from the button below!";
 </script>
 
 <title>Lilydev</title>
@@ -44,8 +47,7 @@
 		<!-- Artboard -->
 		<div class="flex artboard rounded-box p-3">
 			<p class="text-1xl">
-				Hi! I'm Jade, a Minecraft mod developer and (maybe soon) game developer. You can find any of
-				my other platforms from any of the buttons on this site, and projects from the button below!
+				{descriptionText}
 			</p>
 		</div>
 
