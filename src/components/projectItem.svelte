@@ -39,7 +39,6 @@
 				{/if}
 			</div>
 
-			<!-- TODO: add project type across from card title. (maybe specify mod-loader?) -->
 			<p>{description}</p>
 			<div class="card-actions justify-end items-center">
 				{#if githubUrl != null}
