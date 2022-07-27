@@ -1,8 +1,8 @@
 <script lang="ts">
 	import ProjectItem from '../components/projectItem.svelte';
-	import Modrinth from '../components/icons/modrinth.svg?url';
 </script>
 
+<title>Projects</title>
 <div class="grid grid-cols-12 grid-flow-row justify-items-center space-y-12">
 	<h1 class="col-span-12 text-4xl w-auto">Projects</h1>
 	<div
