@@ -1,28 +1,50 @@
 <script lang="ts">
 	import Modrinth from '../components/icons/modrinth.svg?url';
 
+	type ProjectType = 'Fabric' | 'Library' | 'Svelte';
+
 	export let title: String = 'Card title!';
 	export let description: String = 'If a dog chews shoes whose shoes does he choose?';
 	export let githubUrl: any = null;
 	export let modrinthUrl: any = null;
+
+	export let type: ProjectType;
 </script>
 
 <div class="relative group">
 	<!-- Card Background Glow -->
 	<div
-		class="absolute inset-0 card w-96 bg-gradient-to-br from-pink-600 to-pink-400 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
+		class="absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-400 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
 	/>
 	<!-- Card Base -->
-	<div class="card w-96 bg-base-100 shadow-xl">
+	<div class="card w-xl bg-base-100">
 		<div class="card-body pb-5">
-			<h2 class="card-title">{title}</h2>
+			<div class="card-title flex justify-between">
+				<h2 class="card-title">{title}</h2>
+				{#if type == 'Fabric'}
+					<div class="flex items-center space-x-1.5">
+						<div class="w-2 h-2 mt-1 bg-yellow-500 rounded-full" />
+						<p class="text-xs italic">Fabric Mod</p>
+					</div>
+				{:else if type == 'Library'}
+					<div class="flex items-center space-x-1.5">
+						<div class="w-2 h-2 mt-1 bg-red-700 rounded-full" />
+						<p class="text-xs italic">Library</p>
+					</div>
+				{:else if type == 'Svelte'}
+					<div class="flex items-center space-x-1.5">
+						<div class="w-2 h-2 mt-1 bg-orange-500 rounded-full" />
+						<p class="text-xs italic">Svelte App</p>
+					</div>
+				{/if}
+			</div>
 
 			<!-- TODO: add project type across from card title. (maybe specify mod-loader?) -->
 			<p>{description}</p>
 			<div class="card-actions justify-end items-center">
 				{#if githubUrl != null}
 					<a href={githubUrl}>
-						<div class="tooltip" data-tip="GitHub">
+						<div class="tooltip" data-tip="GitHub Source">
 							<i class="fa-brands fa-github text-white text-3xl" />
 						</div>
 					</a>
