@@ -11,7 +11,7 @@
 	export let type: ProjectType;
 </script>
 
-<div class="relative group">
+<div class="relative group overflow-visible">
 	<!-- Card Background Glow -->
 	<div
 		class="overflow-visible absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-300 blur-sm group-hover:blur-md opacity-75 group-hover:opacity-100 transition duration-200"
