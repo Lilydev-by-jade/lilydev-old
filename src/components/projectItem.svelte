@@ -14,10 +14,12 @@
 <div class="relative group">
 	<!-- Card Background Glow -->
 	<div
-		class="overflow-visible absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-300 blur-md opacity-80 group-hover:opacity-100 transition duration-200"
+		class="overflow-visible absolute inset-0 card w-xl bg-gradient-to-br from-pink-600 to-purple-300 blur-md opacity-0 group-hover:opacity-100 transition duration-200"
 	/>
 	<!-- Card Base -->
-	<div class="card w-xl bg-base-100 shadow-xl overflow-visible">
+	<div
+		class="card w-xl bg-base-100 shadow-xl overflow-visible outline outline-pink-200 hover:outline-pink-500 transition duration-200"
+	>
 		<div class="card-body pb-5">
 			<div class="card-title flex justify-between">
 				<h2 class="card-title font-bold">{title}</h2>
