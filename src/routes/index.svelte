@@ -1,13 +1,13 @@
-<script>
+<script lang="ts">
 	import Modrinth from '../components/icons/modrinth.svg?url';
 
-	let descriptionText =
+	let descriptionText: String =
 		"Hi! I'm Jade, a Minecraft mod developer and (maybe soon) game developer. You can find all of my other platforms from the buttons on this site, and my projects from the button below!";
 </script>
 
 <title>Lilydev</title>
-<div class="grid justify-items-center h-96">
-	<div class="grid space-y-3 self-center w-96 mt-36">
+<div class="grid justify-items-center mt-36">
+	<div class="grid space-y-3 self-center w-96 ">
 		<div class="grid grid-cols-10">
 			<div class="h-16 col-span-2 avatar">
 				<div class="mask mask-squircle">
