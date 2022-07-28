@@ -9,6 +9,7 @@
 <div class="grid justify-items-center mt-36">
 	<div class="grid space-y-3 self-center w-96 ">
 		<div class="grid grid-cols-10">
+			<!-- Avatar -->
 			<div class="h-16 col-span-2 avatar">
 				<div class="mask mask-squircle">
 					<img src="https://avatars.githubusercontent.com/u/74706690" alt="github avatar" />
@@ -18,11 +19,12 @@
 			<div
 				class="flex artboard rounded-box p-2 h-min col-span-8 self-center items-center justify-between"
 			>
+				<!-- Name/Pronouns -->
 				<div class="grid grid-cols-12">
 					<h1 class="col-span-4 text-2xl m-0.5 text-slate-200 font-semibold">jade</h1>
 					<p class="col-span-8 self-center text-xs font-bold pl-1 pt-1 text-slate-500">(she/her)</p>
 				</div>
-
+				<!-- Socials -->
 				<div class="flex self-center space-x-2">
 					<a href="https://github.com/jadelily18">
 						<div class="tooltip" data-tip="GitHub">
