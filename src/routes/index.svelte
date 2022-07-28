@@ -20,9 +20,7 @@
 			>
 				<div class="grid grid-cols-12">
 					<h1 class="col-span-4 text-2xl m-0.5 text-slate-200 font-semibold">jade</h1>
-					<p class="col-span-8 self-center text-xs font-bold pl-1 pt-1 text-slate-500">
-						(jadelily18)
-					</p>
+					<p class="col-span-8 self-center text-xs font-bold pl-1 pt-1 text-slate-500">(she/her)</p>
 				</div>
 
 				<div class="flex self-center space-x-2">
