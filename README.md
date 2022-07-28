@@ -1,6 +1,7 @@
 # Lilydev
 
 [![Vercel](https://vercelbadge.vercel.app/api/jadelily18/lilydev?style=flat-square)](https://lilydev.com)
+[![GitHub](https://img.shields.io/github/license/jadelily18/Lilydev?style=flat-square)](https://github.com/jadelily18/Lilydev/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/995465843364343883?color=5865F2&style=flat-square&label=discord)](https://discord.gg/TZAt4PA5av)
 
 My personal website for all my projects!
