@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Modrinth from '../components/icons/modrinth.svg?url';
+	import Modrinth from '$lib/icons/modrinth.svelte';
 
 	type ProjectType = 'Fabric' | 'Library' | 'Svelte';
 
@@ -53,7 +53,7 @@
 				{#if modrinthUrl != null}
 					<a href={modrinthUrl}>
 						<div class="tooltip flex items-center" data-tip="Modrinth">
-							<img src={Modrinth} width="30" alt="modrinth logo icon" />
+							<Modrinth iconWidth="30" />
 						</div>
 					</a>
 				{/if}
