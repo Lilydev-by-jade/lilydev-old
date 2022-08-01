@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Modrinth from '../components/icons/modrinth.svg?url';
+	import Modrinth from '$lib/icons/modrinth.svelte';
 
 	let descriptionText: String =
 		"Hi! I'm Jade, a Minecraft mod developer and (maybe soon) game developer. You can find all of my other platforms from the buttons on this site, and my projects from the button below!";
@@ -33,7 +33,7 @@
 					</a>
 					<a href="https://modrinth.com/user/jadelily18" class="flex items-center">
 						<div class="tooltip flex items-center" data-tip="Modrinth">
-							<img src={Modrinth} width="30" alt="modrinth logo icon" />
+							<Modrinth iconWidth="30" />
 						</div>
 					</a>
 					<a href="https://discord.gg/TZAt4PA5av">

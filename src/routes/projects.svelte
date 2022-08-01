@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ProjectItem from '../components/projectItem.svelte';
+	import ProjectItem from '$lib/components/projectItem.svelte';
 </script>
 
 <title>Projects</title>
